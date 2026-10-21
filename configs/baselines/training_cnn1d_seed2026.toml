@@ -1,0 +1,12 @@
+[training]
+model = "cnn1d"
+seed = 2026
+epochs = 30
+batch_size = 64
+learning_rate = 0.001
+weight_decay = 0.0001
+dropout = 0.3
+early_stopping_patience = 6
+num_workers = 2
+calibration_bins = 15
+class_weighting = true

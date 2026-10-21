@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wifi-csi-quality-aware-har"
+version = "1.0.0"
+description = "Quality-aware gated CNN-LSTM for Wi-Fi CSI human activity recognition: impairment robustness, domain shift, and ablation experiments on CSI-Bench and XRF55"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Yavuz Türkay"}]
+dependencies = ["tomli>=2; python_version<'3.11'"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+csi = ["h5py>=3.6", "numpy>=1.21", "scipy>=1.8"]
+ml = ["torch==2.11.0"]
+kaggle = ["optuna>=4,<5", "pandas>=2"]
+
+[project.scripts]
+csi-inventory = "wifi_csi_quality.inventory:main"
+csi-smoke = "wifi_csi_quality.smoke:main"
+csi-build-protocol = "wifi_csi_quality.protocols:main"
+csi-build-cache = "wifi_csi_quality.preprocessing:main"
+csi-train = "wifi_csi_quality.learning:main"
+csi-audit-cache = "wifi_csi_quality.cache_audit:main"
+csi-evaluate-robustness = "wifi_csi_quality.robustness:main"
+csi-summarize-robustness = "wifi_csi_quality.robustness_summary:main"
+csi-train-quality-aware = "wifi_csi_quality.quality_learning:main"
+csi-evaluate-quality-robustness = "wifi_csi_quality.quality_robustness:main"
+csi-summarize-quality-robustness = "wifi_csi_quality.quality_summary:main"
+csi-optuna-search = "wifi_csi_quality.optuna_search:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

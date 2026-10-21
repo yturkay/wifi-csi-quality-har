@@ -1,0 +1,5 @@
+factor,scenario,folds,macro_f1_mean,macro_f1_sd,macro_f1_min,macro_f1_max,balanced_accuracy_mean,accuracy_mean,ece_mean
+environment,clean,7,36.90,7.42,23.61,46.06,38.23,50.51,0.2722
+environment,mixed_severe,7,34.79,6.21,23.25,42.38,35.71,49.53,0.2351
+user,clean,7,37.07,7.57,23.61,46.06,38.74,51.46,0.2589
+user,mixed_severe,7,34.69,6.19,23.25,42.38,35.97,50.47,0.2258

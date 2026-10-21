@@ -1,0 +1,12 @@
+[training]
+model = "cnn_lstm"
+seed = 2029
+epochs = 30
+batch_size = 96
+learning_rate = 0.0006662034366198896
+weight_decay = 7.66276127696697e-05
+dropout = 0.30000000000000004
+early_stopping_patience = 6
+num_workers = 2
+calibration_bins = 15
+class_weighting = false

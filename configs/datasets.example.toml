@@ -1,0 +1,4 @@
+# Copy to configs/datasets.local.toml (untracked) and set the two local paths.
+[datasets]
+csi_bench_root = "/path/to/CSI-Bench"
+xrf55_wifi_root = "/path/to/XRF55_rawdata/WiFi"

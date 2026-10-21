@@ -1,0 +1,2214 @@
+[
+  {
+    "factor": "environment",
+    "held_out": "E01",
+    "seed": 2029,
+    "scenario": "clean",
+    "n_test": 16750,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 29,
+    "test_class_counts": {
+      "jumping": 1779,
+      "running": 2655,
+      "walking": 9810,
+      "wavinghand": 2506
+    },
+    "test_domains": {
+      "user": [
+        "U01",
+        "U02"
+      ],
+      "environment": [
+        "E01"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.41707462686567165,
+    "balanced_accuracy": 0.36308540744237405,
+    "macro_f1": 0.33767107438974303,
+    "ece": 0.3120156378999055,
+    "nll": 1.8654699325561523,
+    "per_class_f1": {
+      "jumping": 0.28455976180348785,
+      "running": 0.18484848484848487,
+      "walking": 0.5569342644427772,
+      "wavinghand": 0.32434178646422224
+    },
+    "per_class_recall": {
+      "jumping": 0.3760539629005059,
+      "running": 0.18380414312617702,
+      "walking": 0.49184505606523954,
+      "wavinghand": 0.40063846767757383
+    },
+    "confusion_matrix": [
+      [
+        669,
+        217,
+        592,
+        301
+      ],
+      [
+        389,
+        488,
+        1216,
+        562
+      ],
+      [
+        1565,
+        1602,
+        4825,
+        1818
+      ],
+      [
+        300,
+        318,
+        884,
+        1004
+      ]
+    ]
+  },
+  {
+    "factor": "environment",
+    "held_out": "E01",
+    "seed": 2029,
+    "scenario": "mixed_severe",
+    "n_test": 16750,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 29,
+    "test_class_counts": {
+      "jumping": 1779,
+      "running": 2655,
+      "walking": 9810,
+      "wavinghand": 2506
+    },
+    "test_domains": {
+      "user": [
+        "U01",
+        "U02"
+      ],
+      "environment": [
+        "E01"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.41594029850746267,
+    "balanced_accuracy": 0.3246199284912693,
+    "macro_f1": 0.31471936617904483,
+    "ece": 0.28319167842643,
+    "nll": 1.7439192533493042,
+    "per_class_f1": {
+      "jumping": 0.23803429741489635,
+      "running": 0.1609952433223564,
+      "walking": 0.5731734154929577,
+      "wavinghand": 0.28667450848596876
+    },
+    "per_class_recall": {
+      "jumping": 0.26138279932546377,
+      "running": 0.1657250470809793,
+      "walking": 0.5309887869520897,
+      "wavinghand": 0.3403830806065443
+    },
+    "confusion_matrix": [
+      [
+        465,
+        264,
+        749,
+        301
+      ],
+      [
+        328,
+        440,
+        1370,
+        517
+      ],
+      [
+        1095,
+        1732,
+        5209,
+        1774
+      ],
+      [
+        240,
+        375,
+        1038,
+        853
+      ]
+    ]
+  },
+  {
+    "factor": "environment",
+    "held_out": "E02",
+    "seed": 2029,
+    "scenario": "clean",
+    "n_test": 3339,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 28,
+    "test_class_counts": {
+      "jumping": 341,
+      "running": 522,
+      "walking": 1745,
+      "wavinghand": 731
+    },
+    "test_domains": {
+      "user": [
+        "U03"
+      ],
+      "environment": [
+        "E02"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoShow",
+        "EchoSpot",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.3228511530398323,
+    "balanced_accuracy": 0.26995138191837403,
+    "macro_f1": 0.23614676142336133,
+    "ece": 0.44008599183335406,
+    "nll": 2.206819534301758,
+    "per_class_f1": {
+      "jumping": 0.07236842105263158,
+      "running": 0.1176470588235294,
+      "walking": 0.4054150338439615,
+      "wavinghand": 0.34915653197332286
+    },
+    "per_class_recall": {
+      "jumping": 0.06451612903225806,
+      "running": 0.08045977011494253,
+      "walking": 0.3260744985673352,
+      "wavinghand": 0.6087551299589603
+    },
+    "confusion_matrix": [
+      [
+        22,
+        15,
+        55,
+        249
+      ],
+      [
+        21,
+        42,
+        210,
+        249
+      ],
+      [
+        200,
+        101,
+        569,
+        875
+      ],
+      [
+        24,
+        34,
+        228,
+        445
+      ]
+    ],
+    "identical_test_set_as": "user=U03"
+  },
+  {
+    "factor": "environment",
+    "held_out": "E02",
+    "seed": 2029,
+    "scenario": "mixed_severe",
+    "n_test": 3339,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 28,
+    "test_class_counts": {
+      "jumping": 341,
+      "running": 522,
+      "walking": 1745,
+      "wavinghand": 731
+    },
+    "test_domains": {
+      "user": [
+        "U03"
+      ],
+      "environment": [
+        "E02"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoShow",
+        "EchoSpot",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.33842467804731957,
+    "balanced_accuracy": 0.2590927588997548,
+    "macro_f1": 0.2324808324680881,
+    "ece": 0.34616395523525184,
+    "nll": 1.7737749814987183,
+    "per_class_f1": {
+      "jumping": 0.045028142589118206,
+      "running": 0.10709117221418235,
+      "walking": 0.4530531845042679,
+      "wavinghand": 0.324750830564784
+    },
+    "per_class_recall": {
+      "jumping": 0.03519061583577713,
+      "running": 0.07088122605363985,
+      "walking": 0.3954154727793696,
+      "wavinghand": 0.5348837209302325
+    },
+    "confusion_matrix": [
+      [
+        12,
+        3,
+        79,
+        247
+      ],
+      [
+        16,
+        37,
+        238,
+        231
+      ],
+      [
+        149,
+        98,
+        690,
+        808
+      ],
+      [
+        15,
+        31,
+        294,
+        391
+      ]
+    ],
+    "identical_test_set_as": "user=U03"
+  },
+  {
+    "factor": "environment",
+    "held_out": "E03",
+    "seed": 2029,
+    "scenario": "clean",
+    "n_test": 5473,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 30,
+    "test_class_counts": {
+      "jumping": 614,
+      "running": 977,
+      "walking": 3050,
+      "wavinghand": 832
+    },
+    "test_domains": {
+      "user": [
+        "U04"
+      ],
+      "environment": [
+        "E03"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.548876301845423,
+    "balanced_accuracy": 0.43425952764175857,
+    "macro_f1": 0.4451658272584297,
+    "ece": 0.1909689841804169,
+    "nll": 1.3501828908920288,
+    "per_class_f1": {
+      "jumping": 0.326605504587156,
+      "running": 0.35078800203355365,
+      "walking": 0.6766917293233082,
+      "wavinghand": 0.42657807308970097
+    },
+    "per_class_recall": {
+      "jumping": 0.2899022801302932,
+      "running": 0.353121801432958,
+      "walking": 0.7081967213114754,
+      "wavinghand": 0.3858173076923077
+    },
+    "confusion_matrix": [
+      [
+        178,
+        100,
+        288,
+        48
+      ],
+      [
+        20,
+        345,
+        533,
+        79
+      ],
+      [
+        164,
+        501,
+        2160,
+        225
+      ],
+      [
+        114,
+        44,
+        353,
+        321
+      ]
+    ],
+    "identical_test_set_as": "user=U04"
+  },
+  {
+    "factor": "environment",
+    "held_out": "E03",
+    "seed": 2029,
+    "scenario": "mixed_severe",
+    "n_test": 5473,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 30,
+    "test_class_counts": {
+      "jumping": 614,
+      "running": 977,
+      "walking": 3050,
+      "wavinghand": 832
+    },
+    "test_domains": {
+      "user": [
+        "U04"
+      ],
+      "environment": [
+        "E03"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5163530056641695,
+    "balanced_accuracy": 0.39089898367869896,
+    "macro_f1": 0.40048887815655365,
+    "ece": 0.17694004880627212,
+    "nll": 1.3436208963394165,
+    "per_class_f1": {
+      "jumping": 0.2607843137254902,
+      "running": 0.28738690792974986,
+      "walking": 0.6502083011880883,
+      "wavinghand": 0.4035759897828863
+    },
+    "per_class_recall": {
+      "jumping": 0.21661237785016288,
+      "running": 0.27635619242579323,
+      "walking": 0.6908196721311476,
+      "wavinghand": 0.3798076923076923
+    },
+    "confusion_matrix": [
+      [
+        133,
+        102,
+        314,
+        65
+      ],
+      [
+        26,
+        270,
+        619,
+        62
+      ],
+      [
+        169,
+        483,
+        2107,
+        291
+      ],
+      [
+        78,
+        47,
+        391,
+        316
+      ]
+    ],
+    "identical_test_set_as": "user=U04"
+  },
+  {
+    "factor": "environment",
+    "held_out": "E04",
+    "seed": 2029,
+    "scenario": "clean",
+    "n_test": 6198,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 28,
+    "test_class_counts": {
+      "jumping": 648,
+      "running": 1038,
+      "walking": 3664,
+      "wavinghand": 848
+    },
+    "test_domains": {
+      "user": [
+        "U05"
+      ],
+      "environment": [
+        "E04"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5330751855437238,
+    "balanced_accuracy": 0.3646957941391138,
+    "macro_f1": 0.3570526024425381,
+    "ece": 0.2917118882561788,
+    "nll": 1.7718560695648193,
+    "per_class_f1": {
+      "jumping": 0.19598765432098766,
+      "running": 0.1343817012151537,
+      "walking": 0.6854116757029378,
+      "wavinghand": 0.4124293785310734
+    },
+    "per_class_recall": {
+      "jumping": 0.19598765432098766,
+      "running": 0.0905587668593449,
+      "walking": 0.7418122270742358,
+      "wavinghand": 0.43042452830188677
+    },
+    "confusion_matrix": [
+      [
+        127,
+        49,
+        425,
+        47
+      ],
+      [
+        147,
+        94,
+        718,
+        79
+      ],
+      [
+        329,
+        186,
+        2718,
+        431
+      ],
+      [
+        45,
+        32,
+        406,
+        365
+      ]
+    ]
+  },
+  {
+    "factor": "environment",
+    "held_out": "E04",
+    "seed": 2029,
+    "scenario": "mixed_severe",
+    "n_test": 6198,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 28,
+    "test_class_counts": {
+      "jumping": 648,
+      "running": 1038,
+      "walking": 3664,
+      "wavinghand": 848
+    },
+    "test_domains": {
+      "user": [
+        "U05"
+      ],
+      "environment": [
+        "E04"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5387221684414327,
+    "balanced_accuracy": 0.3587165527076133,
+    "macro_f1": 0.3559085979801463,
+    "ece": 0.23427423672672076,
+    "nll": 1.4790349006652832,
+    "per_class_f1": {
+      "jumping": 0.21879815100154082,
+      "running": 0.1373510861948143,
+      "walking": 0.6956197112991538,
+      "wavinghand": 0.37186544342507644
+    },
+    "per_class_recall": {
+      "jumping": 0.2191358024691358,
+      "running": 0.09441233140655106,
+      "walking": 0.7628275109170306,
+      "wavinghand": 0.3584905660377358
+    },
+    "confusion_matrix": [
+      [
+        142,
+        42,
+        415,
+        49
+      ],
+      [
+        152,
+        98,
+        708,
+        80
+      ],
+      [
+        309,
+        206,
+        2795,
+        354
+      ],
+      [
+        47,
+        43,
+        454,
+        304
+      ]
+    ]
+  },
+  {
+    "factor": "environment",
+    "held_out": "E05",
+    "seed": 2029,
+    "scenario": "clean",
+    "n_test": 5790,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 28,
+    "test_class_counts": {
+      "jumping": 651,
+      "running": 847,
+      "walking": 3414,
+      "wavinghand": 878
+    },
+    "test_domains": {
+      "user": [
+        "U05"
+      ],
+      "environment": [
+        "E05"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5626943005181347,
+    "balanced_accuracy": 0.3617290432021213,
+    "macro_f1": 0.3680044663677119,
+    "ece": 0.22415072017613075,
+    "nll": 1.5190913677215576,
+    "per_class_f1": {
+      "jumping": 0.17035217035217035,
+      "running": 0.14007782101167315,
+      "walking": 0.7233929754804507,
+      "wavinghand": 0.4381948986265533
+    },
+    "per_class_recall": {
+      "jumping": 0.1597542242703533,
+      "running": 0.10625737898465171,
+      "walking": 0.7993555946104276,
+      "wavinghand": 0.3815489749430524
+    },
+    "confusion_matrix": [
+      [
+        104,
+        41,
+        438,
+        68
+      ],
+      [
+        133,
+        90,
+        552,
+        72
+      ],
+      [
+        291,
+        218,
+        2729,
+        176
+      ],
+      [
+        42,
+        89,
+        412,
+        335
+      ]
+    ]
+  },
+  {
+    "factor": "environment",
+    "held_out": "E05",
+    "seed": 2029,
+    "scenario": "mixed_severe",
+    "n_test": 5790,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 28,
+    "test_class_counts": {
+      "jumping": 651,
+      "running": 847,
+      "walking": 3414,
+      "wavinghand": 878
+    },
+    "test_domains": {
+      "user": [
+        "U05"
+      ],
+      "environment": [
+        "E05"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5526770293609672,
+    "balanced_accuracy": 0.35238792724749957,
+    "macro_f1": 0.34970648141499533,
+    "ece": 0.18867990013196734,
+    "nll": 1.3961511850357056,
+    "per_class_f1": {
+      "jumping": 0.16611842105263158,
+      "running": 0.09730668983492614,
+      "walking": 0.7130181432922792,
+      "wavinghand": 0.4223826714801444
+    },
+    "per_class_recall": {
+      "jumping": 0.15514592933947774,
+      "running": 0.06611570247933884,
+      "walking": 0.7885178676039836,
+      "wavinghand": 0.39977220956719817
+    },
+    "confusion_matrix": [
+      [
+        101,
+        31,
+        433,
+        86
+      ],
+      [
+        131,
+        56,
+        570,
+        90
+      ],
+      [
+        294,
+        171,
+        2692,
+        257
+      ],
+      [
+        39,
+        46,
+        442,
+        351
+      ]
+    ]
+  },
+  {
+    "factor": "environment",
+    "held_out": "E06",
+    "seed": 2029,
+    "scenario": "clean",
+    "n_test": 5464,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 29,
+    "test_class_counts": {
+      "jumping": 633,
+      "running": 572,
+      "walking": 3449,
+      "wavinghand": 810
+    },
+    "test_domains": {
+      "user": [
+        "U06"
+      ],
+      "environment": [
+        "E06"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.6281112737920937,
+    "balanced_accuracy": 0.46370703494936905,
+    "macro_f1": 0.46058068135550867,
+    "ece": 0.16405839283931112,
+    "nll": 1.2049615383148193,
+    "per_class_f1": {
+      "jumping": 0.35067437379576105,
+      "running": 0.20927936821322804,
+      "walking": 0.7587096774193549,
+      "wavinghand": 0.5236593059936908
+    },
+    "per_class_recall": {
+      "jumping": 0.28751974723538704,
+      "running": 0.1853146853146853,
+      "walking": 0.7671788924325892,
+      "wavinghand": 0.6148148148148148
+    },
+    "confusion_matrix": [
+      [
+        182,
+        61,
+        322,
+        68
+      ],
+      [
+        7,
+        106,
+        372,
+        87
+      ],
+      [
+        125,
+        239,
+        2646,
+        439
+      ],
+      [
+        91,
+        35,
+        186,
+        498
+      ]
+    ],
+    "identical_test_set_as": "user=U06"
+  },
+  {
+    "factor": "environment",
+    "held_out": "E06",
+    "seed": 2029,
+    "scenario": "mixed_severe",
+    "n_test": 5464,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 29,
+    "test_class_counts": {
+      "jumping": 633,
+      "running": 572,
+      "walking": 3449,
+      "wavinghand": 810
+    },
+    "test_domains": {
+      "user": [
+        "U06"
+      ],
+      "environment": [
+        "E06"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5913250366032211,
+    "balanced_accuracy": 0.42485231774338744,
+    "macro_f1": 0.4237804065654967,
+    "ece": 0.1614383005691893,
+    "nll": 1.2476508617401123,
+    "per_class_f1": {
+      "jumping": 0.31284916201117313,
+      "running": 0.19940769990128332,
+      "walking": 0.7266485481333143,
+      "wavinghand": 0.4562162162162162
+    },
+    "per_class_recall": {
+      "jumping": 0.26540284360189575,
+      "running": 0.17657342657342656,
+      "walking": 0.7364453464772398,
+      "wavinghand": 0.5209876543209877
+    },
+    "confusion_matrix": [
+      [
+        168,
+        53,
+        344,
+        68
+      ],
+      [
+        16,
+        101,
+        387,
+        68
+      ],
+      [
+        180,
+        247,
+        2540,
+        482
+      ],
+      [
+        77,
+        40,
+        271,
+        422
+      ]
+    ],
+    "identical_test_set_as": "user=U06"
+  },
+  {
+    "factor": "environment",
+    "held_out": "E27",
+    "seed": 2029,
+    "scenario": "clean",
+    "n_test": 5637,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 29,
+    "test_class_counts": {
+      "jumping": 671,
+      "running": 881,
+      "walking": 3219,
+      "wavinghand": 866
+    },
+    "test_domains": {
+      "user": [
+        "U22"
+      ],
+      "environment": [
+        "E27"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5233280113535569,
+    "balanced_accuracy": 0.4186423012981487,
+    "macro_f1": 0.37863486656901657,
+    "ece": 0.2824593304330849,
+    "nll": 1.8454257249832153,
+    "per_class_f1": {
+      "jumping": 0.24074074074074073,
+      "running": 0.16020671834625325,
+      "walking": 0.6620231122368213,
+      "wavinghand": 0.451568894952251
+    },
+    "per_class_recall": {
+      "jumping": 0.15499254843517138,
+      "running": 0.10556186152099886,
+      "walking": 0.6495806150978565,
+      "wavinghand": 0.7644341801385681
+    },
+    "confusion_matrix": [
+      [
+        104,
+        23,
+        303,
+        241
+      ],
+      [
+        13,
+        93,
+        534,
+        241
+      ],
+      [
+        62,
+        144,
+        2091,
+        922
+      ],
+      [
+        14,
+        20,
+        170,
+        662
+      ]
+    ],
+    "identical_test_set_as": "user=U22"
+  },
+  {
+    "factor": "environment",
+    "held_out": "E27",
+    "seed": 2029,
+    "scenario": "mixed_severe",
+    "n_test": 5637,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 29,
+    "test_class_counts": {
+      "jumping": 671,
+      "running": 881,
+      "walking": 3219,
+      "wavinghand": 866
+    },
+    "test_domains": {
+      "user": [
+        "U22"
+      ],
+      "environment": [
+        "E27"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5137484477558986,
+    "balanced_accuracy": 0.3889571696211155,
+    "macro_f1": 0.357964214830785,
+    "ece": 0.25534602052925864,
+    "nll": 1.5916982889175415,
+    "per_class_f1": {
+      "jumping": 0.20745920745920746,
+      "running": 0.15061295971978983,
+      "walking": 0.6592127431459642,
+      "wavinghand": 0.4145719489981785
+    },
+    "per_class_recall": {
+      "jumping": 0.13263785394932937,
+      "running": 0.09761634506242906,
+      "walking": 0.6685305995650823,
+      "wavinghand": 0.6570438799076213
+    },
+    "confusion_matrix": [
+      [
+        89,
+        15,
+        341,
+        226
+      ],
+      [
+        17,
+        86,
+        561,
+        217
+      ],
+      [
+        66,
+        134,
+        2152,
+        867
+      ],
+      [
+        15,
+        26,
+        256,
+        569
+      ]
+    ],
+    "identical_test_set_as": "user=U22"
+  },
+  {
+    "factor": "user",
+    "held_out": "U01",
+    "seed": 2029,
+    "scenario": "clean",
+    "n_test": 6237,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 28,
+    "test_class_counts": {
+      "jumping": 693,
+      "running": 940,
+      "walking": 3692,
+      "wavinghand": 912
+    },
+    "test_domains": {
+      "user": [
+        "U01"
+      ],
+      "environment": [
+        "E01"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.4531024531024531,
+    "balanced_accuracy": 0.37975979805344146,
+    "macro_f1": 0.3328431732910986,
+    "ece": 0.2863027637054866,
+    "nll": 2.0082054138183594,
+    "per_class_f1": {
+      "jumping": 0.2865761689291101,
+      "running": 0.07309486780715396,
+      "walking": 0.615547810274284,
+      "wavinghand": 0.3561538461538462
+    },
+    "per_class_recall": {
+      "jumping": 0.41125541125541126,
+      "running": 0.05,
+      "walking": 0.5501083423618635,
+      "wavinghand": 0.5076754385964912
+    },
+    "confusion_matrix": [
+      [
+        285,
+        17,
+        264,
+        127
+      ],
+      [
+        313,
+        47,
+        329,
+        251
+      ],
+      [
+        552,
+        262,
+        2031,
+        847
+      ],
+      [
+        146,
+        20,
+        283,
+        463
+      ]
+    ]
+  },
+  {
+    "factor": "user",
+    "held_out": "U01",
+    "seed": 2029,
+    "scenario": "mixed_severe",
+    "n_test": 6237,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 28,
+    "test_class_counts": {
+      "jumping": 693,
+      "running": 940,
+      "walking": 3692,
+      "wavinghand": 912
+    },
+    "test_domains": {
+      "user": [
+        "U01"
+      ],
+      "environment": [
+        "E01"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.4607984607984608,
+    "balanced_accuracy": 0.35497783421945134,
+    "macro_f1": 0.3194544991260269,
+    "ece": 0.24810391048278949,
+    "nll": 1.7848734855651855,
+    "per_class_f1": {
+      "jumping": 0.2573099415204678,
+      "running": 0.06931530008453085,
+      "walking": 0.635614060465789,
+      "wavinghand": 0.31557869443331993
+    },
+    "per_class_recall": {
+      "jumping": 0.3492063492063492,
+      "running": 0.043617021276595745,
+      "walking": 0.5950704225352113,
+      "wavinghand": 0.43201754385964913
+    },
+    "confusion_matrix": [
+      [
+        242,
+        19,
+        308,
+        124
+      ],
+      [
+        278,
+        41,
+        377,
+        244
+      ],
+      [
+        511,
+        161,
+        2197,
+        823
+      ],
+      [
+        157,
+        22,
+        339,
+        394
+      ]
+    ]
+  },
+  {
+    "factor": "user",
+    "held_out": "U02",
+    "seed": 2029,
+    "scenario": "clean",
+    "n_test": 10513,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 27,
+    "test_class_counts": {
+      "jumping": 1086,
+      "running": 1715,
+      "walking": 6118,
+      "wavinghand": 1594
+    },
+    "test_domains": {
+      "user": [
+        "U02"
+      ],
+      "environment": [
+        "E01"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5840388090935033,
+    "balanced_accuracy": 0.38598574453648266,
+    "macro_f1": 0.39457458254668343,
+    "ece": 0.1758697587928873,
+    "nll": 1.2393250465393066,
+    "per_class_f1": {
+      "jumping": 0.2897111913357401,
+      "running": 0.1535850657615613,
+      "walking": 0.7331486611265005,
+      "wavinghand": 0.4018534119629318
+    },
+    "per_class_recall": {
+      "jumping": 0.2955801104972376,
+      "running": 0.1055393586005831,
+      "walking": 0.8435763321346845,
+      "wavinghand": 0.29924717691342534
+    },
+    "confusion_matrix": [
+      [
+        321,
+        59,
+        665,
+        41
+      ],
+      [
+        144,
+        181,
+        1272,
+        118
+      ],
+      [
+        547,
+        266,
+        5161,
+        144
+      ],
+      [
+        118,
+        136,
+        863,
+        477
+      ]
+    ]
+  },
+  {
+    "factor": "user",
+    "held_out": "U02",
+    "seed": 2029,
+    "scenario": "mixed_severe",
+    "n_test": 10513,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 27,
+    "test_class_counts": {
+      "jumping": 1086,
+      "running": 1715,
+      "walking": 6118,
+      "wavinghand": 1594
+    },
+    "test_domains": {
+      "user": [
+        "U02"
+      ],
+      "environment": [
+        "E01"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5795681537144488,
+    "balanced_accuracy": 0.3506093910068888,
+    "macro_f1": 0.3578267788328712,
+    "ece": 0.15890389846820596,
+    "nll": 1.2475110292434692,
+    "per_class_f1": {
+      "jumping": 0.24169842133913993,
+      "running": 0.11106252732837778,
+      "walking": 0.7323422621086523,
+      "wavinghand": 0.3462039045553146
+    },
+    "per_class_recall": {
+      "jumping": 0.20441988950276244,
+      "running": 0.07405247813411078,
+      "walking": 0.8736515201046093,
+      "wavinghand": 0.25031367628607276
+    },
+    "confusion_matrix": [
+      [
+        222,
+        70,
+        740,
+        54
+      ],
+      [
+        90,
+        127,
+        1405,
+        93
+      ],
+      [
+        358,
+        250,
+        5345,
+        165
+      ],
+      [
+        81,
+        125,
+        989,
+        399
+      ]
+    ]
+  },
+  {
+    "factor": "user",
+    "held_out": "U03",
+    "seed": 2029,
+    "scenario": "clean",
+    "n_test": 3339,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 28,
+    "test_class_counts": {
+      "jumping": 341,
+      "running": 522,
+      "walking": 1745,
+      "wavinghand": 731
+    },
+    "test_domains": {
+      "user": [
+        "U03"
+      ],
+      "environment": [
+        "E02"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoShow",
+        "EchoSpot",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.3228511530398323,
+    "balanced_accuracy": 0.26995138191837403,
+    "macro_f1": 0.23614676142336133,
+    "ece": 0.44008599183335406,
+    "nll": 2.206819534301758,
+    "per_class_f1": {
+      "jumping": 0.07236842105263158,
+      "running": 0.1176470588235294,
+      "walking": 0.4054150338439615,
+      "wavinghand": 0.34915653197332286
+    },
+    "per_class_recall": {
+      "jumping": 0.06451612903225806,
+      "running": 0.08045977011494253,
+      "walking": 0.3260744985673352,
+      "wavinghand": 0.6087551299589603
+    },
+    "confusion_matrix": [
+      [
+        22,
+        15,
+        55,
+        249
+      ],
+      [
+        21,
+        42,
+        210,
+        249
+      ],
+      [
+        200,
+        101,
+        569,
+        875
+      ],
+      [
+        24,
+        34,
+        228,
+        445
+      ]
+    ]
+  },
+  {
+    "factor": "user",
+    "held_out": "U03",
+    "seed": 2029,
+    "scenario": "mixed_severe",
+    "n_test": 3339,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 28,
+    "test_class_counts": {
+      "jumping": 341,
+      "running": 522,
+      "walking": 1745,
+      "wavinghand": 731
+    },
+    "test_domains": {
+      "user": [
+        "U03"
+      ],
+      "environment": [
+        "E02"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoShow",
+        "EchoSpot",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.33842467804731957,
+    "balanced_accuracy": 0.2590927588997548,
+    "macro_f1": 0.2324808324680881,
+    "ece": 0.34616395523525184,
+    "nll": 1.7737749814987183,
+    "per_class_f1": {
+      "jumping": 0.045028142589118206,
+      "running": 0.10709117221418235,
+      "walking": 0.4530531845042679,
+      "wavinghand": 0.324750830564784
+    },
+    "per_class_recall": {
+      "jumping": 0.03519061583577713,
+      "running": 0.07088122605363985,
+      "walking": 0.3954154727793696,
+      "wavinghand": 0.5348837209302325
+    },
+    "confusion_matrix": [
+      [
+        12,
+        3,
+        79,
+        247
+      ],
+      [
+        16,
+        37,
+        238,
+        231
+      ],
+      [
+        149,
+        98,
+        690,
+        808
+      ],
+      [
+        15,
+        31,
+        294,
+        391
+      ]
+    ]
+  },
+  {
+    "factor": "user",
+    "held_out": "U04",
+    "seed": 2029,
+    "scenario": "clean",
+    "n_test": 5473,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 30,
+    "test_class_counts": {
+      "jumping": 614,
+      "running": 977,
+      "walking": 3050,
+      "wavinghand": 832
+    },
+    "test_domains": {
+      "user": [
+        "U04"
+      ],
+      "environment": [
+        "E03"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.548876301845423,
+    "balanced_accuracy": 0.43425952764175857,
+    "macro_f1": 0.4451658272584297,
+    "ece": 0.1909689841804169,
+    "nll": 1.3501828908920288,
+    "per_class_f1": {
+      "jumping": 0.326605504587156,
+      "running": 0.35078800203355365,
+      "walking": 0.6766917293233082,
+      "wavinghand": 0.42657807308970097
+    },
+    "per_class_recall": {
+      "jumping": 0.2899022801302932,
+      "running": 0.353121801432958,
+      "walking": 0.7081967213114754,
+      "wavinghand": 0.3858173076923077
+    },
+    "confusion_matrix": [
+      [
+        178,
+        100,
+        288,
+        48
+      ],
+      [
+        20,
+        345,
+        533,
+        79
+      ],
+      [
+        164,
+        501,
+        2160,
+        225
+      ],
+      [
+        114,
+        44,
+        353,
+        321
+      ]
+    ]
+  },
+  {
+    "factor": "user",
+    "held_out": "U04",
+    "seed": 2029,
+    "scenario": "mixed_severe",
+    "n_test": 5473,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 30,
+    "test_class_counts": {
+      "jumping": 614,
+      "running": 977,
+      "walking": 3050,
+      "wavinghand": 832
+    },
+    "test_domains": {
+      "user": [
+        "U04"
+      ],
+      "environment": [
+        "E03"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5163530056641695,
+    "balanced_accuracy": 0.39089898367869896,
+    "macro_f1": 0.40048887815655365,
+    "ece": 0.17694004880627212,
+    "nll": 1.3436208963394165,
+    "per_class_f1": {
+      "jumping": 0.2607843137254902,
+      "running": 0.28738690792974986,
+      "walking": 0.6502083011880883,
+      "wavinghand": 0.4035759897828863
+    },
+    "per_class_recall": {
+      "jumping": 0.21661237785016288,
+      "running": 0.27635619242579323,
+      "walking": 0.6908196721311476,
+      "wavinghand": 0.3798076923076923
+    },
+    "confusion_matrix": [
+      [
+        133,
+        102,
+        314,
+        65
+      ],
+      [
+        26,
+        270,
+        619,
+        62
+      ],
+      [
+        169,
+        483,
+        2107,
+        291
+      ],
+      [
+        78,
+        47,
+        391,
+        316
+      ]
+    ]
+  },
+  {
+    "factor": "user",
+    "held_out": "U05",
+    "seed": 2029,
+    "scenario": "clean",
+    "n_test": 11988,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 28,
+    "test_class_counts": {
+      "jumping": 1299,
+      "running": 1885,
+      "walking": 7078,
+      "wavinghand": 1726
+    },
+    "test_domains": {
+      "user": [
+        "U05"
+      ],
+      "environment": [
+        "E04",
+        "E05"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5418752085418752,
+    "balanced_accuracy": 0.3597052961845207,
+    "macro_f1": 0.3471729744141165,
+    "ece": 0.2725109893671983,
+    "nll": 1.8127248287200928,
+    "per_class_f1": {
+      "jumping": 0.2080745341614907,
+      "running": 0.0670756646216769,
+      "walking": 0.7040312093628089,
+      "wavinghand": 0.40951048951048946
+    },
+    "per_class_recall": {
+      "jumping": 0.2063125481139338,
+      "running": 0.04350132625994695,
+      "walking": 0.7649053404916644,
+      "wavinghand": 0.4241019698725377
+    },
+    "confusion_matrix": [
+      [
+        268,
+        65,
+        827,
+        139
+      ],
+      [
+        352,
+        82,
+        1253,
+        198
+      ],
+      [
+        575,
+        309,
+        5414,
+        780
+      ],
+      [
+        82,
+        104,
+        808,
+        732
+      ]
+    ]
+  },
+  {
+    "factor": "user",
+    "held_out": "U05",
+    "seed": 2029,
+    "scenario": "mixed_severe",
+    "n_test": 11988,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 28,
+    "test_class_counts": {
+      "jumping": 1299,
+      "running": 1885,
+      "walking": 7078,
+      "wavinghand": 1726
+    },
+    "test_domains": {
+      "user": [
+        "U05"
+      ],
+      "environment": [
+        "E04",
+        "E05"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5327827827827828,
+    "balanced_accuracy": 0.3486530595479672,
+    "macro_f1": 0.33618582653780277,
+    "ece": 0.23389394956938725,
+    "nll": 1.6160659790039062,
+    "per_class_f1": {
+      "jumping": 0.198124745209947,
+      "running": 0.07358953393295176,
+      "walking": 0.6967431580315933,
+      "wavinghand": 0.376285868976719
+    },
+    "per_class_recall": {
+      "jumping": 0.18706697459584296,
+      "running": 0.04774535809018567,
+      "walking": 0.7571347838372422,
+      "wavinghand": 0.4026651216685979
+    },
+    "confusion_matrix": [
+      [
+        243,
+        62,
+        844,
+        150
+      ],
+      [
+        297,
+        90,
+        1247,
+        251
+      ],
+      [
+        519,
+        328,
+        5359,
+        872
+      ],
+      [
+        95,
+        81,
+        855,
+        695
+      ]
+    ]
+  },
+  {
+    "factor": "user",
+    "held_out": "U06",
+    "seed": 2029,
+    "scenario": "clean",
+    "n_test": 5464,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 29,
+    "test_class_counts": {
+      "jumping": 633,
+      "running": 572,
+      "walking": 3449,
+      "wavinghand": 810
+    },
+    "test_domains": {
+      "user": [
+        "U06"
+      ],
+      "environment": [
+        "E06"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.6281112737920937,
+    "balanced_accuracy": 0.46370703494936905,
+    "macro_f1": 0.46058068135550867,
+    "ece": 0.16405839283931112,
+    "nll": 1.2049615383148193,
+    "per_class_f1": {
+      "jumping": 0.35067437379576105,
+      "running": 0.20927936821322804,
+      "walking": 0.7587096774193549,
+      "wavinghand": 0.5236593059936908
+    },
+    "per_class_recall": {
+      "jumping": 0.28751974723538704,
+      "running": 0.1853146853146853,
+      "walking": 0.7671788924325892,
+      "wavinghand": 0.6148148148148148
+    },
+    "confusion_matrix": [
+      [
+        182,
+        61,
+        322,
+        68
+      ],
+      [
+        7,
+        106,
+        372,
+        87
+      ],
+      [
+        125,
+        239,
+        2646,
+        439
+      ],
+      [
+        91,
+        35,
+        186,
+        498
+      ]
+    ]
+  },
+  {
+    "factor": "user",
+    "held_out": "U06",
+    "seed": 2029,
+    "scenario": "mixed_severe",
+    "n_test": 5464,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 29,
+    "test_class_counts": {
+      "jumping": 633,
+      "running": 572,
+      "walking": 3449,
+      "wavinghand": 810
+    },
+    "test_domains": {
+      "user": [
+        "U06"
+      ],
+      "environment": [
+        "E06"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5913250366032211,
+    "balanced_accuracy": 0.42485231774338744,
+    "macro_f1": 0.4237804065654967,
+    "ece": 0.1614383005691893,
+    "nll": 1.2476508617401123,
+    "per_class_f1": {
+      "jumping": 0.31284916201117313,
+      "running": 0.19940769990128332,
+      "walking": 0.7266485481333143,
+      "wavinghand": 0.4562162162162162
+    },
+    "per_class_recall": {
+      "jumping": 0.26540284360189575,
+      "running": 0.17657342657342656,
+      "walking": 0.7364453464772398,
+      "wavinghand": 0.5209876543209877
+    },
+    "confusion_matrix": [
+      [
+        168,
+        53,
+        344,
+        68
+      ],
+      [
+        16,
+        101,
+        387,
+        68
+      ],
+      [
+        180,
+        247,
+        2540,
+        482
+      ],
+      [
+        77,
+        40,
+        271,
+        422
+      ]
+    ]
+  },
+  {
+    "factor": "user",
+    "held_out": "U22",
+    "seed": 2029,
+    "scenario": "clean",
+    "n_test": 5637,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 29,
+    "test_class_counts": {
+      "jumping": 671,
+      "running": 881,
+      "walking": 3219,
+      "wavinghand": 866
+    },
+    "test_domains": {
+      "user": [
+        "U22"
+      ],
+      "environment": [
+        "E27"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5233280113535569,
+    "balanced_accuracy": 0.4186423012981487,
+    "macro_f1": 0.37863486656901657,
+    "ece": 0.2824593304330849,
+    "nll": 1.8454257249832153,
+    "per_class_f1": {
+      "jumping": 0.24074074074074073,
+      "running": 0.16020671834625325,
+      "walking": 0.6620231122368213,
+      "wavinghand": 0.451568894952251
+    },
+    "per_class_recall": {
+      "jumping": 0.15499254843517138,
+      "running": 0.10556186152099886,
+      "walking": 0.6495806150978565,
+      "wavinghand": 0.7644341801385681
+    },
+    "confusion_matrix": [
+      [
+        104,
+        23,
+        303,
+        241
+      ],
+      [
+        13,
+        93,
+        534,
+        241
+      ],
+      [
+        62,
+        144,
+        2091,
+        922
+      ],
+      [
+        14,
+        20,
+        170,
+        662
+      ]
+    ]
+  },
+  {
+    "factor": "user",
+    "held_out": "U22",
+    "seed": 2029,
+    "scenario": "mixed_severe",
+    "n_test": 5637,
+    "n_train": 18810,
+    "n_val": 3988,
+    "best_epoch": 29,
+    "test_class_counts": {
+      "jumping": 671,
+      "running": 881,
+      "walking": 3219,
+      "wavinghand": 866
+    },
+    "test_domains": {
+      "user": [
+        "U22"
+      ],
+      "environment": [
+        "E27"
+      ],
+      "device": [
+        "AmazonPlug",
+        "AppleHomePod",
+        "EchoPlus",
+        "EchoShow",
+        "EchoSpot",
+        "EightreePlug",
+        "GoogleNest",
+        "GoveePlug",
+        "HP",
+        "WyzePlug"
+      ]
+    },
+    "accuracy": 0.5137484477558986,
+    "balanced_accuracy": 0.3889571696211155,
+    "macro_f1": 0.357964214830785,
+    "ece": 0.25534602052925864,
+    "nll": 1.5916982889175415,
+    "per_class_f1": {
+      "jumping": 0.20745920745920746,
+      "running": 0.15061295971978983,
+      "walking": 0.6592127431459642,
+      "wavinghand": 0.4145719489981785
+    },
+    "per_class_recall": {
+      "jumping": 0.13263785394932937,
+      "running": 0.09761634506242906,
+      "walking": 0.6685305995650823,
+      "wavinghand": 0.6570438799076213
+    },
+    "confusion_matrix": [
+      [
+        89,
+        15,
+        341,
+        226
+      ],
+      [
+        17,
+        86,
+        561,
+        217
+      ],
+      [
+        66,
+        134,
+        2152,
+        867
+      ],
+      [
+        15,
+        26,
+        256,
+        569
+      ]
+    ]
+  }
+]

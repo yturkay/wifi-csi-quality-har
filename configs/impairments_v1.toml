@@ -1,0 +1,64 @@
+[clean]
+random_loss_probability = 0.0
+burst_start_probability = 0.0
+burst_length = 1
+jitter_std_fraction_of_median_interval = 0.0
+stale_start_probability = 0.0
+stale_length = 1
+
+[single_random_loss_10]
+random_loss_probability = 0.10
+burst_start_probability = 0.0
+burst_length = 1
+jitter_std_fraction_of_median_interval = 0.0
+stale_start_probability = 0.0
+stale_length = 1
+
+[single_burst_moderate]
+random_loss_probability = 0.0
+burst_start_probability = 0.01
+burst_length = 5
+jitter_std_fraction_of_median_interval = 0.0
+stale_start_probability = 0.0
+stale_length = 1
+
+[single_irregular_moderate]
+random_loss_probability = 0.0
+burst_start_probability = 0.0
+burst_length = 1
+jitter_std_fraction_of_median_interval = 0.15
+stale_start_probability = 0.0
+stale_length = 1
+
+[single_stale_moderate]
+random_loss_probability = 0.0
+burst_start_probability = 0.0
+burst_length = 1
+jitter_std_fraction_of_median_interval = 0.0
+stale_start_probability = 0.01
+stale_length = 3
+
+[mixed_mild]
+random_loss_probability = 0.05
+burst_start_probability = 0.005
+burst_length = 3
+jitter_std_fraction_of_median_interval = 0.05
+stale_start_probability = 0.005
+stale_length = 2
+
+[mixed_moderate]
+random_loss_probability = 0.10
+burst_start_probability = 0.01
+burst_length = 5
+jitter_std_fraction_of_median_interval = 0.15
+stale_start_probability = 0.01
+stale_length = 3
+
+[mixed_severe]
+random_loss_probability = 0.20
+burst_start_probability = 0.02
+burst_length = 10
+jitter_std_fraction_of_median_interval = 0.30
+stale_start_probability = 0.02
+stale_length = 5
+

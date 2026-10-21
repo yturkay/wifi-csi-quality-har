@@ -1,0 +1,29 @@
+[protocol]
+name = "common4_quality_v1"
+seed = 2026
+classes = ["jumping", "running", "walking", "wavinghand"]
+primary_dataset = "CSI-Bench"
+external_dataset = "XRF55"
+
+[preprocessing]
+target_sample_rate_hz = 100
+target_time_steps = 500
+target_subcarriers = 64
+link_reduction = "mean"
+amplitude_transform = "log1p"
+normalization = "per_sample_robust_median_iqr"
+
+[evaluation]
+primary_metrics = ["macro_f1", "balanced_accuracy"]
+secondary_metrics = ["accuracy", "ece", "nll"]
+report_per_class = true
+seeds = [2026, 2027, 2028, 2029, 2030]
+
+[leakage_policy]
+fit_normalization_on_train_only = true
+preserve_official_csi_bench_splits = true
+xrf55_train_repetitions = [1, 14]
+xrf55_validation_repetitions = [15, 17]
+xrf55_test_repetitions = [18, 20]
+external_test_used_for_model_selection = false
+
