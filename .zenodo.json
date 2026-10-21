@@ -1,0 +1,9 @@
+{
+  "title": "wifi-csi-quality-har: Quality-aware gated CNN-LSTM for Wi-Fi CSI human activity recognition",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [{"name": "Türkay, Yavuz"}],
+  "description": "Code, configurations, and aggregate results for the study 'Quality-Aware Gated CNN-LSTM for Robust Wi-Fi CSI Human Activity Recognition: Cross-Dataset Evidence from CSI-Bench and XRF55'. The datasets are not redistributed; see README for download instructions.",
+  "keywords": ["Wi-Fi sensing", "channel state information", "human activity recognition", "irregular sampling", "domain shift", "calibration"],
+  "version": "1.0.0"
+}
