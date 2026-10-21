@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.egg-info/
+build/
+dist/
+outputs/
+cache/
+checkpoints/
+*.pt
+*.npz
+*.bin
+*.tar
+configs/datasets.local.toml
